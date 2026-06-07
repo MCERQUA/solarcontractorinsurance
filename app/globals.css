@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #02418F;
+  --color-primary-dark: #001a47;
+  --color-accent: #fcb900;
+  --color-text: #333333;
+  --color-text-light: #666666;
+  --color-bg-light: #f5f5f5;
+  --color-bg-dark: #1a1a2e;
+  --color-border: #d8d8d8;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: var(--color-text);
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,50 @@
+{
+  "site": "solarcontractorinsurance.com",
+  "framework": "next.js",
+  "version": "16.2.7",
+  "built": "2026-06-07",
+  "routes": [
+    {
+      "path": "/",
+      "file": "app/page.tsx",
+      "title": "Home | Solar Contractor Insurance Call 844-967-5247",
+      "description": "Need Solar Contractor's Insurance? Get low cost contractor's insurance for your company. We shop the market for you to get you the best price and coverage."
+    },
+    {
+      "path": "/about-us/",
+      "file": "app/about-us/page.tsx",
+      "title": "About Us | Solar Contractor Insurance",
+      "description": "Learn about Solar Contractor Insurance - our approach, our story, and our commitment to solar contractors. Josh Cotner, CRIS."
+    },
+    {
+      "path": "/services/",
+      "file": "app/services/page.tsx",
+      "title": "Services | Solar Contractor Insurance",
+      "description": "Solar contractor insurance services including general liability, workers compensation, commercial auto insurance. Get a quote today."
+    },
+    {
+      "path": "/contact-us/",
+      "file": "app/contact-us/page.tsx",
+      "title": "Contact Us | Solar Contractor Insurance",
+      "description": "Contact Solar Contractor Insurance. Call 844-967-5247 or fill out our form for a free quote. Located at 4435 E Chandler Blvd Suite 200, Phoenix, AZ 85048."
+    }
+  ],
+  "images": [
+    "/images/dot-150x150.png",
+    "/images/electrician-connecting-solar-panels-1-1024x684.jpg",
+    "/images/roofing-construction-job-p8dtgslulcs05nd44dzp7or9zbhitlgvb71t6o7shc.jpg"
+  ],
+  "fonts": ["Oswald", "Roboto", "Poppins"],
+  "colors": {
+    "primary": "#02418F",
+    "primaryDark": "#001a47",
+    "text": "#333333",
+    "textLight": "#666666"
+  },
+  "navigation": [
+    { "label": "Home", "path": "/" },
+    { "label": "About Us", "path": "/about-us/" },
+    { "label": "Services", "path": "/services/" },
+    { "label": "Contact Us", "path": "/contact-us/" }
+  ]
+}
