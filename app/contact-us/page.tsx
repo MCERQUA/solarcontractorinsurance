@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Contact Solar Contractor Insurance. Call 844-967-5247 or fill out our form for a free quote. Located at 4435 E Chandler Blvd Suite 200, Phoenix, AZ 85048.",
+    "Contact Solar Contractor Insurance. Call 844-967-5247 or fill out our form for a free quote. Located at 12220 E Riggs Road Suite #105, Chandler, AZ 85249.",
 };
 
 export default function ContactUsPage() {
@@ -95,9 +95,9 @@ export default function ContactUsPage() {
                     />
                   </svg>
                   <span>
-                    4435 E Chandler Blvd Suite 200,
+                    12220 E Riggs Road Suite #105,
                     <br />
-                    Phoenix, AZ 85048
+                    Chandler, AZ 85249
                   </span>
                 </li>
               </ul>

@@ -49,6 +49,30 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "InsuranceAgency",
+  "name": "Solar Contractor Insurance — Contractors Choice Agency",
+  "url": "https://solarcontractorinsurance.com",
+  "telephone": "+18449675247",
+  "email": "josh@contractorschoiceagency.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "12220 E Riggs Road Suite #105",
+    "addressLocality": "Chandler",
+    "addressRegion": "AZ",
+    "postalCode": "85249",
+    "addressCountry": "US"
+  },
+  "areaServed": "US",
+  "priceRange": "$$",
+  "description": "Specialized insurance agency for solar contractors. General liability, workers compensation, commercial auto, professional liability, surety bonds, and equipment coverage for solar installers. Licensed in all 50 states.",
+  "sameAs": [
+    "https://contractorschoiceagency.com",
+    "https://linkedin.com/in/joshcotner"
+  ]
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -56,6 +80,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="min-h-screen flex flex-col">
         {/* Header */}
         <header className="bg-white shadow-sm border-b border-gray-100">
