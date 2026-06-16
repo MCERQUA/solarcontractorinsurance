@@ -58,7 +58,7 @@ const jsonLd = {
   "email": "josh@contractorschoiceagency.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "12220 E Riggs Road Suite #105",
+    "streetAddress": "12220 E Riggs Road, Suite #105",
     "addressLocality": "Chandler",
     "addressRegion": "AZ",
     "postalCode": "85249",
@@ -67,6 +67,11 @@ const jsonLd = {
   "areaServed": "US",
   "priceRange": "$$",
   "description": "Specialized insurance agency for solar contractors. General liability, workers compensation, commercial auto, professional liability, surety bonds, and equipment coverage for solar installers. Licensed in all 50 states.",
+  "employee": {
+    "@type": "Person",
+    "name": "Josh Cotner",
+    "jobTitle": "Commercial Insurance Specialist"
+  },
   "sameAs": [
     "https://contractorschoiceagency.com",
     "https://linkedin.com/in/joshcotner"
